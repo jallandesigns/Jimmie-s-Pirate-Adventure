@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D4CB2E197851EB00DE113E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D4CB2D197851EB00DE113E /* Foundation.framework */; };
+		B6D4CB30197851EB00DE113E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D4CB2F197851EB00DE113E /* CoreGraphics.framework */; };
+		B6D4CB32197851EB00DE113E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D4CB31197851EB00DE113E /* UIKit.framework */; };
+		B6D4CB38197851EB00DE113E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6D4CB36197851EB00DE113E /* InfoPlist.strings */; };
+		B6D4CB3A197851EB00DE113E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D4CB39197851EB00DE113E /* main.m */; };
+		B6D4CB3E197851EB00DE113E /* JACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D4CB3D197851EB00DE113E /* JACAppDelegate.m */; };
+		B6D4CB41197851EB00DE113E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D4CB3F197851EB00DE113E /* Main.storyboard */; };
+		B6D4CB44197851EB00DE113E /* JACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D4CB43197851EB00DE113E /* JACViewController.m */; };
+		B6D4CB46197851EB00DE113E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D4CB45197851EB00DE113E /* Images.xcassets */; };
+		B6D4CB4D197851EB00DE113E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D4CB4C197851EB00DE113E /* XCTest.framework */; };
+		B6D4CB4E197851EB00DE113E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D4CB2D197851EB00DE113E /* Foundation.framework */; };
+		B6D4CB4F197851EB00DE113E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D4CB31197851EB00DE113E /* UIKit.framework */; };
+		B6D4CB57197851EB00DE113E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6D4CB55197851EB00DE113E /* InfoPlist.strings */; };
+		B6D4CB59197851EB00DE113E /* Jimmie_s_Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D4CB58197851EB00DE113E /* Jimmie_s_Pirate_AdventureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D4CB50197851EB00DE113E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D4CB22197851EB00DE113E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D4CB29197851EB00DE113E;
+			remoteInfo = "Jimmie's Pirate Adventure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6D4CB2A197851EB00DE113E /* Jimmie's Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jimmie's Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D4CB2D197851EB00DE113E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6D4CB2F197851EB00DE113E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6D4CB31197851EB00DE113E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6D4CB35197851EB00DE113E /* Jimmie's Pirate Adventure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jimmie's Pirate Adventure-Info.plist"; sourceTree = "<group>"; };
+		B6D4CB37197851EB00DE113E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6D4CB39197851EB00DE113E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D4CB3B197851EB00DE113E /* Jimmie's Pirate Adventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jimmie's Pirate Adventure-Prefix.pch"; sourceTree = "<group>"; };
+		B6D4CB3C197851EB00DE113E /* JACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JACAppDelegate.h; sourceTree = "<group>"; };
+		B6D4CB3D197851EB00DE113E /* JACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JACAppDelegate.m; sourceTree = "<group>"; };
+		B6D4CB40197851EB00DE113E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6D4CB42197851EB00DE113E /* JACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JACViewController.h; sourceTree = "<group>"; };
+		B6D4CB43197851EB00DE113E /* JACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JACViewController.m; sourceTree = "<group>"; };
+		B6D4CB45197851EB00DE113E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6D4CB4B197851EB00DE113E /* Jimmie's Pirate AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jimmie's Pirate AdventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D4CB4C197851EB00DE113E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B6D4CB54197851EB00DE113E /* Jimmie's Pirate AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jimmie's Pirate AdventureTests-Info.plist"; sourceTree = "<group>"; };
+		B6D4CB56197851EB00DE113E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6D4CB58197851EB00DE113E /* Jimmie_s_Pirate_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jimmie_s_Pirate_AdventureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D4CB27197851EB00DE113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D4CB30197851EB00DE113E /* CoreGraphics.framework in Frameworks */,
+				B6D4CB32197851EB00DE113E /* UIKit.framework in Frameworks */,
+				B6D4CB2E197851EB00DE113E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D4CB48197851EB00DE113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D4CB4D197851EB00DE113E /* XCTest.framework in Frameworks */,
+				B6D4CB4F197851EB00DE113E /* UIKit.framework in Frameworks */,
+				B6D4CB4E197851EB00DE113E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6D4CB21197851EB00DE113E = {
+			isa = PBXGroup;
+			children = (
+				B6D4CB33197851EB00DE113E /* Jimmie's Pirate Adventure */,
+				B6D4CB52197851EB00DE113E /* Jimmie's Pirate AdventureTests */,
+				B6D4CB2C197851EB00DE113E /* Frameworks */,
+				B6D4CB2B197851EB00DE113E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D4CB2B197851EB00DE113E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D4CB2A197851EB00DE113E /* Jimmie's Pirate Adventure.app */,
+				B6D4CB4B197851EB00DE113E /* Jimmie's Pirate AdventureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D4CB2C197851EB00DE113E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D4CB2D197851EB00DE113E /* Foundation.framework */,
+				B6D4CB2F197851EB00DE113E /* CoreGraphics.framework */,
+				B6D4CB31197851EB00DE113E /* UIKit.framework */,
+				B6D4CB4C197851EB00DE113E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6D4CB33197851EB00DE113E /* Jimmie's Pirate Adventure */ = {
+			isa = PBXGroup;
+			children = (
+				B6D4CB3C197851EB00DE113E /* JACAppDelegate.h */,
+				B6D4CB3D197851EB00DE113E /* JACAppDelegate.m */,
+				B6D4CB3F197851EB00DE113E /* Main.storyboard */,
+				B6D4CB42197851EB00DE113E /* JACViewController.h */,
+				B6D4CB43197851EB00DE113E /* JACViewController.m */,
+				B6D4CB45197851EB00DE113E /* Images.xcassets */,
+				B6D4CB34197851EB00DE113E /* Supporting Files */,
+			);
+			path = "Jimmie's Pirate Adventure";
+			sourceTree = "<group>";
+		};
+		B6D4CB34197851EB00DE113E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D4CB35197851EB00DE113E /* Jimmie's Pirate Adventure-Info.plist */,
+				B6D4CB36197851EB00DE113E /* InfoPlist.strings */,
+				B6D4CB39197851EB00DE113E /* main.m */,
+				B6D4CB3B197851EB00DE113E /* Jimmie's Pirate Adventure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6D4CB52197851EB00DE113E /* Jimmie's Pirate AdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6D4CB58197851EB00DE113E /* Jimmie_s_Pirate_AdventureTests.m */,
+				B6D4CB53197851EB00DE113E /* Supporting Files */,
+			);
+			path = "Jimmie's Pirate AdventureTests";
+			sourceTree = "<group>";
+		};
+		B6D4CB53197851EB00DE113E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D4CB54197851EB00DE113E /* Jimmie's Pirate AdventureTests-Info.plist */,
+				B6D4CB55197851EB00DE113E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D4CB29197851EB00DE113E /* Jimmie's Pirate Adventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D4CB5C197851EB00DE113E /* Build configuration list for PBXNativeTarget "Jimmie's Pirate Adventure" */;
+			buildPhases = (
+				B6D4CB26197851EB00DE113E /* Sources */,
+				B6D4CB27197851EB00DE113E /* Frameworks */,
+				B6D4CB28197851EB00DE113E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jimmie's Pirate Adventure";
+			productName = "Jimmie's Pirate Adventure";
+			productReference = B6D4CB2A197851EB00DE113E /* Jimmie's Pirate Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6D4CB4A197851EB00DE113E /* Jimmie's Pirate AdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D4CB5F197851EB00DE113E /* Build configuration list for PBXNativeTarget "Jimmie's Pirate AdventureTests" */;
+			buildPhases = (
+				B6D4CB47197851EB00DE113E /* Sources */,
+				B6D4CB48197851EB00DE113E /* Frameworks */,
+				B6D4CB49197851EB00DE113E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D4CB51197851EB00DE113E /* PBXTargetDependency */,
+			);
+			name = "Jimmie's Pirate AdventureTests";
+			productName = "Jimmie's Pirate AdventureTests";
+			productReference = B6D4CB4B197851EB00DE113E /* Jimmie's Pirate AdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D4CB22197851EB00DE113E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAC;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					B6D4CB4A197851EB00DE113E = {
+						TestTargetID = B6D4CB29197851EB00DE113E;
+					};
+				};
+			};
+			buildConfigurationList = B6D4CB25197851EB00DE113E /* Build configuration list for PBXProject "Jimmie's Pirate Adventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6D4CB21197851EB00DE113E;
+			productRefGroup = B6D4CB2B197851EB00DE113E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D4CB29197851EB00DE113E /* Jimmie's Pirate Adventure */,
+				B6D4CB4A197851EB00DE113E /* Jimmie's Pirate AdventureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D4CB28197851EB00DE113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D4CB46197851EB00DE113E /* Images.xcassets in Resources */,
+				B6D4CB38197851EB00DE113E /* InfoPlist.strings in Resources */,
+				B6D4CB41197851EB00DE113E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D4CB49197851EB00DE113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D4CB57197851EB00DE113E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D4CB26197851EB00DE113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D4CB3A197851EB00DE113E /* main.m in Sources */,
+				B6D4CB3E197851EB00DE113E /* JACAppDelegate.m in Sources */,
+				B6D4CB44197851EB00DE113E /* JACViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D4CB47197851EB00DE113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D4CB59197851EB00DE113E /* Jimmie_s_Pirate_AdventureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D4CB51197851EB00DE113E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D4CB29197851EB00DE113E /* Jimmie's Pirate Adventure */;
+			targetProxy = B6D4CB50197851EB00DE113E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6D4CB36197851EB00DE113E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D4CB37197851EB00DE113E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6D4CB3F197851EB00DE113E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D4CB40197851EB00DE113E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6D4CB55197851EB00DE113E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D4CB56197851EB00DE113E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6D4CB5A197851EB00DE113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6D4CB5B197851EB00DE113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6D4CB5D197851EB00DE113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jimmie's Pirate Adventure/Jimmie's Pirate Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Jimmie's Pirate Adventure/Jimmie's Pirate Adventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6D4CB5E197851EB00DE113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jimmie's Pirate Adventure/Jimmie's Pirate Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Jimmie's Pirate Adventure/Jimmie's Pirate Adventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6D4CB60197851EB00DE113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jimmie's Pirate Adventure.app/Jimmie's Pirate Adventure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jimmie's Pirate Adventure/Jimmie's Pirate Adventure-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jimmie's Pirate AdventureTests/Jimmie's Pirate AdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B6D4CB61197851EB00DE113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jimmie's Pirate Adventure.app/Jimmie's Pirate Adventure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jimmie's Pirate Adventure/Jimmie's Pirate Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Jimmie's Pirate AdventureTests/Jimmie's Pirate AdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D4CB25197851EB00DE113E /* Build configuration list for PBXProject "Jimmie's Pirate Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D4CB5A197851EB00DE113E /* Debug */,
+				B6D4CB5B197851EB00DE113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D4CB5C197851EB00DE113E /* Build configuration list for PBXNativeTarget "Jimmie's Pirate Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D4CB5D197851EB00DE113E /* Debug */,
+				B6D4CB5E197851EB00DE113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6D4CB5F197851EB00DE113E /* Build configuration list for PBXNativeTarget "Jimmie's Pirate AdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D4CB60197851EB00DE113E /* Debug */,
+				B6D4CB61197851EB00DE113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D4CB22197851EB00DE113E /* Project object */;
+}
